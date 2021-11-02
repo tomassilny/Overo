@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<records>
+    <employee>
+        <name>Monica Geller</name>
+        <profession>Chef</profession>
+    </employee>
+    <employee>
+        <name>Ross Geller</name>
+        <profession>paleontologist</profession>
+    </employee>
+    <employee>
+        <name>Rachel Green</name>
+        <profession>Waitress</profession>
+    </employee>
+    <employee>
+        <name>Chandler Bing</name>
+        <profession>Data Analyst</profession>
+    </employee>
+    <employee>
+        <name>Joey Tribianni</name>
+        <profession>Actor</profession>
+    </employee>
+    <employee>
+        <name>Phoebe Buffay</name>
+        <profession>Masseuse</profession>
+    </employee>
+</records>

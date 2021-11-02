@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_shadow">#7F000000</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorAccent">#fff</color>
+    <color name="lightWhite">#2affffff</color>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        tools:ignore="UselessParent,WebViewLayout">
+
+        <RelativeLayout
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#1565C0"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Prebieha kontrola..."
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:src="@drawable/verify"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="248dp"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/controls"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            tools:layout_editor_absoluteX="11dp"
+            android:background="#3F51B5"
+            tools:layout_editor_absoluteY="479dp">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Domov"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Skenovať ďalšie"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/wv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/controls"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/state"
+            android:visibility="invisible">
+
+        </WebView>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="248dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
